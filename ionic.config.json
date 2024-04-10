@@ -1,0 +1,7 @@
+{
+  "name": "djw",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
