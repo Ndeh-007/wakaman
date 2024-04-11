@@ -1,0 +1,19 @@
+ion-grid.table-content{
+    height: 60vh;
+    scroll-behavior: auto;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+ion-grid.table-content ion-row{
+    border-bottom: 1px solid var(--ion-color-light);
+}
+
+ion-grid.table-content ion-col{
+    border-right: 1px solid var(--ion-color-light);
+}
+
+ion-grid.table-header ion-row{
+    border-bottom: 1px solid var(--ion-color-light);
+    font-weight: bold;
+}
