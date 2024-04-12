@@ -5,6 +5,7 @@
   },
   "hosting": {
     "public": "build",
+    "site": "djw",
     "ignore": [
       "firebase.json",
       "**/.*",

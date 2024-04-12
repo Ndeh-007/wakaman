@@ -133,7 +133,7 @@ const Edit: React.FC = () => {
                                 people?.map((person, index) => {
                                     return (
                                         <IonRow key={index} className={"ion-align-items-center"}>
-                                            <IonCol>{person?.name}</IonCol>
+                                            <IonCol className={"ion-text-center"}>{person?.name}</IonCol>
                                             <IonCol className={"ion-text-center"}>{person?.laugh_count}</IonCol>
                                             <IonCol>
                                                 <IonToolbar color={"clear"}>
@@ -179,7 +179,7 @@ const Edit: React.FC = () => {
                                                     </IonButtons>
                                                 </IonToolbar>
                                             </IonCol>
-                                            <IonCol>{person?.count_difference}</IonCol>
+                                            <IonCol className={'ion-text-center'}>{person?.joke_attempts}</IonCol>
                                         </IonRow>
                                     )
                                 })
